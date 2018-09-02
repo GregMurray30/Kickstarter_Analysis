@@ -9,40 +9,34 @@ I always have a few personal side ventures in the works and hope to one day find
 
 
   
-2. Average Airline Delay Time: The major airline carriers, US Airways, United Airlines, and Southwest Airlines appear to have limited carrier-caused delay times on average. Conversely, all the carrier who shoulder the blame for the longest extended wait times are smaller airlines like Hawaii, Comair, and Atlantic Southeast. Lastly, Mesa Airlines is clearly the worst airline for those fliers who lack patience or loose schedules.
+1. From its inception in 2009, KickStarter grew steadily until it peaked in 2015 and has started a slow decline since then.
 <p align="center">
   <img src="https://github.com/GregMurray30/Kickstarter_Analysis/blob/master/year_trend.png" title="Historical Trend">
 </p>
 
-3.  Airline Percent Flights Delayed: Unlike the average carrier delay times, the major airlines have the highest percentag of flights delayed. Interestingly, contrary to their laid-back image, the airlines representing Hawaii boast the most punctual departures of any carrier.
-
-4.  Percentage of Flights Delayed by Hour and Day: The heat map - Days Of Week + Time of Day, indicates that afternoons and evenings are relatively more delayed compared to mornings. Friday and Sunday evenings are at the peak of delays.
+2.  The spike in project count from 2013 to 2015 was not accompanied by an increase in pledges as nearly all the new project volume were failures.
 <p align="center">
-  <img src="https://github.com/GregMurray30/Kickstarter_Analysis/blob/master/succ_fail_by_year.png" title="Percentage of Flights Delayed by Hour and Day">
+  <img src="https://github.com/GregMurray30/Kickstarter_Analysis/blob/master/succ_fail_by_year.png" title="Success and Failure Trends">
 </p>
 
-5. Percentage of Flights Delayed by Month: Flight delays are maximum in around the holiday season. During Christmas and Thanksgiving, the delays could go up to 57%. We have some outliers in the middle of February and end of March, where there are no holidays or any reason that stands out.
+3. Surprisingly, 'Film & Video' and 'Music' projects are clearly more numerous than any other main category. 
 <p align="center">
-  <img src="https://github.com/GregMurray30/Kickstarter_Analysis/blob/master/main_category_cnt.png" title="Flight Delays By Month">
+  <img src="https://github.com/GregMurray30/Kickstarter_Analysis/blob/master/main_category_cnt.png" title="Main Category Counts">
 </p>
 
-5. Percentage of Flights Delayed by Month: Flight delays are maximum in around the holiday season. During Christmas and Thanksgiving, the delays could go up to 57%. We have some outliers in the middle of February and end of March, where there are no holidays or any reason that stands out.
+4. More 'Indie Rock' and 'Tabletop Games' projects succeed than fail while web and mobile app projects have an extremely low success rate. 'Product Design' and Video Games are more indicative of the normal success rate range outside this sample. I found the success to failure ratio leaders suprising and suspect that lower pledge goals amounts for the successful categories were responsible for their high success rates.
 <p align="center">
-  <img src="https://github.com/GregMurray30/Kickstarter_Analysis/blob/master/succ_v_fail_subcat.png" title="Flight Delays By Month">
+  <img src="https://github.com/GregMurray30/Kickstarter_Analysis/blob/master/succ_v_fail_subcat.png" title="Success vs Failure by Subcategory">
 </p>
 
-5. Percentage of Flights Delayed by Month: Flight delays are maximum in around the holiday season. During Christmas and Thanksgiving, the delays could go up to 57%. We have some outliers in the middle of February and end of March, where there are no holidays or any reason that stands out.
+5. Keeping the categories' success rates in mind from the previous graph, my hyposthesis that lower goals were highly correlated was incorrect as 'Tabletop Games' and 'Web' have approximately equal median goal amounts but wildly differing success rates. Another interesting takeaway from this graph is the price sensitivity of each category. 'Music' for example, whose variance and median nearly the same in successful and failed projects, is highly goal insensitive, meaning that success is determined by factors other than the goal amount, like merit and marketing, of the project. 'Apps' on the other hand is highly goal sensitive where having a low goal amount contributes more towards success therefore decreasing the relative impact quality has on the projects odds of success.
 <p align="center">
-  <img src="https://github.com/GregMurray30/Kickstarter_Analysis/blob/master/dist_succ_v_fail_subcat.png" title="Flight Delays By Month">
+  <img src="https://github.com/GregMurray30/Kickstarter_Analysis/blob/master/dist_succ_v_fail_subcat.png" title="Goal Amount Distribution by Subcategory">
 </p>
-
 
 
 ## Data sets
-Delayed US flights in 2008: https://www.kaggle.com/giovamata/airlinedelaycauses
-All US flights in 2008:  https://www.kaggle.com/vikalpdongre/us-flights-data-2008#2008.csv
-Airport longitude and latitude location: https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat
-
+Kickstarter Projects: https://www.kaggle.com/kemical/kickstarter-projects
 ## Tools And Libraries Used
 1. Jupyter Notebook
-2. Seaborn, Plotly, pyplot
+2. Seaborn, matplotlib, wordcloud
