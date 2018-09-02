@@ -19,7 +19,7 @@ I always have a few personal side ventures in the works and hope to one day find
 </p>
 
 
-3. Surprisingly, 'Film & Video' and 'Music' projects are clearly more numerous than any other main category. 
+3. Surprisingly, 'Film & Video' and 'Music' projects are clearly more numerous than any other main category. The former nearly double the number of 'Technology' projects. 
 <p align="center">
   <img src="https://github.com/GregMurray30/Kickstarter_Analysis/blob/master/main_category_cnt.png" title="Main Category Counts">
 </p>
