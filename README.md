@@ -33,7 +33,7 @@ I always have a few personal side ventures in the works and hope to one day find
   <img src="https://github.com/GregMurray30/Kickstarter_Analysis/blob/master/succ_v_fail_subcat.png" title="Success vs Failure by Subcategory">
 </p>
 >
->
+
 
 >5.  In view of the success rates from the previous graph, my hyposthesis that lower goal amounts were highly correlated with success was incorrect as 'Tabletop Games' and 'Web' have approximately equal median goal amounts but wildly differing success rates. Another interesting takeaway from this graph is the "goal sensitivity" - the extent to which success is determined by a lower relative goal amount - of each category. 'Music' for example, successful and failed projects of which have nearly identical variances and medians, is highly "goal insensitive", implying that success is determined by factors other than the goal amount, like merit and marketing, for this category. 'Apps' on the other hand is highly "goal sensitive", where a low goal amount contributes more towards success than other less sensitive categories.
 <p align="center">
