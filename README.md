@@ -3,7 +3,7 @@ Analysis of Kickstarter project data from 2009-2017
 
 
 ## Summary 
-I always have a few personal side ventures in the works and hope to one day find proper funding for one that has potential for success so I analyzed a data set of Kickstarter projects from 2009-2017 to determine the factors which contribute to success in addition to historical and seasonal trends to see how the platform is faring. Among the factors investigated were category popularity, goal amount, title wording, and seasonality.
+I always have a few personal side ventures in the works and hope to one day find proper funding for one that has potential for success. Accordingly, I utilized Pandas to analyze a Kickstarter project  data set from 2009-2017 to determine the factors that contribute to success, in addition to historical and seasonal trends. Among the factors investigated were category popularity, goal amount, title wording, and seasonality.
 
 ## Insights
 
