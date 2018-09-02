@@ -7,14 +7,14 @@ I always have a few personal side ventures in the works and hope to one day find
 
 ## Insights
 
-1. From its inception in 2009, KickStarter grew steadily until it peaked in 2015 and has started a slow decline since then.
+>1. From its inception in 2009, KickStarter grew steadily until it peaked in 2015 and has started a slow decline since then.
 <p align="center">
   <img src="https://github.com/GregMurray30/Kickstarter_Analysis/blob/master/year_trend.png" title="Historical Trend">
 </p>
 
 
 
-2.  The spike in project count from 2013 to 2015 was not accompanied by an increase in pledges as nearly all the new project volume were failures.
+>2.  The spike in project count from 2013 to 2015 was not accompanied by an increase in pledges as nearly all the new project volume were failures.
 <p align="center">
   <img src="https://github.com/GregMurray30/Kickstarter_Analysis/blob/master/succ_fail_by_year.png" title="Success and Failure Trends">
 </p>
