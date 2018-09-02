@@ -40,4 +40,5 @@ I always have a few personal side ventures in the works and hope to one day find
 Kickstarter Projects: https://www.kaggle.com/kemical/kickstarter-projects
 ## Tools And Libraries Used
 1. Jupyter Notebook
-2. Seaborn, matplotlib, wordcloud
+2. Pandas, numpy
+3. Seaborn, matplotlib, wordcloud
